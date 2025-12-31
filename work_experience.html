@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Experience</title>
+    <style>
+        body {
+            background-color: beige;
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+        }
+
+        /* Navigation Bar */
+        .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+        }
+
+        .nav li a {
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .nav li a:hover:not(.active) {
+            background-color: red;
+        }
+
+        .nav li a.active {
+            background-color: green;
+        }
+
+        /* Content */
+        h1, h2 {
+            margin-left: 20px;
+        }
+
+        p {
+            margin-left: 20px;
+            font-size: 11pt;
+        }
+
+        .content-list {
+            list-style-type: disc;
+            margin-left: 40px;
+            font-size: 14pt;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a class="active" href="work_experience.html">Work Experience</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+    <h1>Work Experience</h1>
+    <!-- Job 1 -->
+    <h2>Vulnerability Scanning Intern – NerdsToGo</h2>
+    <p>Nov 2024 – Jan 2025</p>
+    <ul class="content-list">
+        <li>Conducted vulnerability scans across multiple endpoints using open-source and commercial scanning tools.</li>
+        <li>Documented and delivered vulnerability reports with remediation recommendations.</li>
+    </ul>
+    <!-- Job 2 -->
+    <h2>Cybersecurity Intern – Rhode Island Department of Information Technology</h2>
+    <p>June – July 2023</p>
+    <ul class="content-list">
+        <li>Audited and enforced Group Policy security settings based on CIS benchmarks.</li>
+        <li>Collaborated with the security team to analyze GPO overrides across departments.</li>
+        <li>Authored a security research report on the MOVEit exploit using OSINT tools.</li>
+    </ul>
+    <!-- Projects -->
+    <h2>Personal Projects</h2>
+    <ul class="content-list">
+        <li>Completing the eWPT certification by INE / eLearning.</li>
+        <li>Completing the CWES certification by Hack The Box.</li>
+        <li>Self-teaching front-end web development (HTML, CSS, JavaScript).</li>
+        <li>Built and maintain a virtual machine running Damn Vulnerable Web App (DVWA) to practice web application penetration testing.</li>
+    </ul>
+</body>
+</html>
