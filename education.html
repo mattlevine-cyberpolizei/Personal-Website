@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+ <style>
+        body {
+            background-color: beige;
+            font-family: 'Orbitron',"Times New Roman", Times, serif;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        /* Navigation Bar */
+        .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+        }
+
+        .nav li a {
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .nav li a:hover:not(.active) {
+            background-color: red;
+        }
+
+        .nav li a.active {
+            background-color: green;
+        }
+
+        /* Content */
+        h1, h2 {
+            margin-left: 20px;
+        }
+
+        p {
+            margin-left: 20px;
+            font-size: 15pt;
+        }
+        .content-list {
+            list-style-type: disc;
+            margin-left: 40px;
+            font-size: 14pt;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="work_experience.html">Work Experience</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a class="active" href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+    <!-- Certifications -->
+    <h2>Certifications:</h2>
+    <div></div>
+    <ul class="content-list">
+    <li>Junior Penetration Tester (eJPT) by INE</li>
+    </ul>
+    <!-- Education -->
+    <h2>Education:</h2>
+    <div></div>
+    <p>Bachelors of Science in Cybersecurity & Networking - Roger Williams University </p>
+    <p>2017-2023</p>
+    <div></div>
+    <p>Relevant Coursework:</p>
+    <ul class="content-list">
+        <li>Networking</li>
+        <li>Linux</li>
+        <li>Mobile/Hardware Forensics</li>
+        <li>Digital Forensics</li>
+        <li>Penetration Testing</li>
+        <li>Malware Analysis</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Firewall & Defense in Depth</li>
+        <li>Intrusion Detection</li>
+        <li>Cryptography</li>
+        <li>Database Design & Acquisition</li>
+    </ul>
+</body>
+</html>
